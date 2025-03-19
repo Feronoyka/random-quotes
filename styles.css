@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
+  background-color: rgb(40, 40, 40);
 }
 
 .container {
@@ -9,7 +9,15 @@ body {
   text-align: center;
 }
 
-button {
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.btn {
   padding: 10px;
   font-size: 16px;
   background-color: #1673ff;
@@ -19,6 +27,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   background-color: #0056b3;
+}
+
+.quote::before,
+.quote::after {
+  content: '"';
 }
