@@ -13,10 +13,6 @@ h1 {
   color: #fff;
 }
 
-p {
-  color: #fff;
-}
-
 .btn {
   padding: 10px;
   font-size: 16px;
@@ -27,11 +23,38 @@ p {
   cursor: pointer;
 }
 
+#toggle-favourite {
+  display: none;
+}
+
 .btn:hover {
   background-color: #0056b3;
+}
+
+.author-color {
+  color: whitesmoke;
+}
+
+.quote {
+  color: whitesmoke;
 }
 
 .quote::before,
 .quote::after {
   content: '"';
+}
+
+.favourites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.favourite-card {
+  background-color: rgb(225, 225, 225);
+  color: rgb(50, 44, 44);
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
 }
