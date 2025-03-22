@@ -27,6 +27,20 @@ h1 {
   display: none;
 }
 
+.fa-regular {
+  font-size: 30px;
+  vertical-align: middle;
+  color: yellow;
+  cursor: pointer;
+}
+
+.fa-solid {
+  font-size: 30px;
+  vertical-align: middle;
+  color: yellow;
+  cursor: pointer;
+}
+
 .btn:hover {
   background-color: #0056b3;
 }
